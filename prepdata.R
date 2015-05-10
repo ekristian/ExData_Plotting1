@@ -20,7 +20,7 @@ prepdata <- function() {
             if (grepl("^[12]/2/2007;", r, perl=TRUE)) {
                 write(r, fout, append=TRUE)
             }
-            if (grepl("1/1/2008;", r, perl=TRUE)) {
+            if (grepl("1/3/2007;", r, perl=TRUE)) {
                 break
             }
         }
